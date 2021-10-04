@@ -6,6 +6,8 @@ import Home from './Components/Home/Home';
 import About from './Components/About/About';
 import Services from './Components/Services/Services';
 import Courses from './Components/Courses/Courses';
+import NotFound from './Components/NotFound/NotFound';
+import Contact from './Components/Contact/Contact';
 
 function App() {
   return (
@@ -13,17 +15,26 @@ function App() {
      <BrowserRouter>
      <Header></Header>
      <Switch>
-      <Route path="/home">
+      <Route exact path="/">
         <Home></Home>
       </Route>
-      <Route path="/about">
+      <Route exact path="/home">
+        <Home></Home>
+      </Route>
+      <Route exact path="/about">
         <About></About>
       </Route>
-      <Route path="/services">
+      <Route exact path="/services">
        <Services></Services>
       </Route>
-      <Route path="/courses">
+      <Route exact path="/courses">
       <Courses></Courses>
+      </Route>
+      <Route exact path="/contact">
+      <Contact></Contact>
+      </Route>
+      <Route exact path="*">
+        <NotFound></NotFound>
       </Route>
      </Switch>
      </BrowserRouter>
