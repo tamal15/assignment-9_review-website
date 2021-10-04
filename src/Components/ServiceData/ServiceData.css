@@ -1,0 +1,19 @@
+.service-data img{
+    height:200px;
+    width:293px;
+}
+
+.body-designs{
+    background-color: black;
+    color:white;
+}
+
+.button{
+    /* background-color: #f44336; */
+    background-color: #f7345e;
+    padding: 13px;
+    border-radius: 8px;
+    color:white;
+    width:150px;
+    border:lightgrey;
+}

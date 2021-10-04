@@ -1,0 +1,22 @@
+.frame{
+    position:relative;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.photo-details{
+   position:absolute;
+   top:0;
+}
+.text{
+    color:darkred;
+}
+.card img{
+    height:200px;
+    width:285px;
+}
+
+.columns{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+}

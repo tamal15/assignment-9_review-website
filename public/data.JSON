@@ -1,0 +1,56 @@
+[
+    {
+        "name": "Computer Engineer",
+        "img": "https://mindlercareerlibrarynew.imgix.net/1G-Computer_ScienceCsIT_Software_Engineering.png",
+        "price": 10000,
+        "text":"Computer engineers build devices, design computer networks and develop new technologies. They are focused on computer hardware and understanding how to optimize hardware for different applications"
+    },
+    {
+        "name": "Electrical Engineer",
+        "img": "https://cdn.mos.cms.futurecdn.net/steVjWGx3vYPjMpJL2jVcV-1200-80.jpg",
+        "price": 17000,
+        "text":"Electrical engineers design, develop, and test electrical devices and equipment, including communications systems, power generators, "
+    },
+    {
+        "name": "Textail Engineer",
+        "img": "https://www.kholasha.com/wp-content/uploads/2018/08/Textile-Engineering.jpg",
+        "price": 20000,
+        "text":"Textile engineering is a branch of engineering where the principles of scientific techniques are utilized for manufacturing and development of several varieties of fabric. "
+    },
+    {
+        "name": "Bachelor Business Administration",
+        "img": "https://www.trump.net.in/blog/wp-content/uploads/Direct-Admission-in-Top-BBA-College.jpg",
+        "price": 29000,
+        "text":"In the United States, the degree is conferred after four years of full-time study in one or more areas of business concentrations. In Europe and India, the degree is conferred"
+    },
+    {
+        "name": "Civil Engineer",
+        "img": "https://leverageedu.com/blog/wp-content/uploads/2020/07/PhD-in-Civil-Engineering.png",
+        "price": 28000,
+        "text":"Civil engineers create, improve and protect the environment in which we live. They plan, design and oversee construction and maintenance of building structures and infrastructure, "
+    },
+    {
+        "name": "Architectural engineering",
+        "img": "https://studyline.net/wp-content/uploads/2021/07/%D8%AA%D8%AE%D8%B5%D8%B5-%D9%87%D9%86%D8%AF%D8%B3%D8%A9-%D8%A7%D9%84%D8%B9%D9%85%D8%A7%D8%B1%D8%A9.jpg",
+        "price": 30000,
+        "text":"Architectural Engineers use mathematical and scientific principles in building design to test, evaluate, and improve the structural integrity of buildings and building systems"
+    },
+    {
+        "name": "Mechanical Engineer",
+        "img": "https://www.bolton.ac.uk/assets/Uploads/shutterstock-1213477993-2.jpg",
+        "price": 23000,
+        "text":"Mechanical engineers design power-producing machines, such as electric generators, internal combustion engines, and steam and gas turbines, as well as power-using machines,"
+    },
+    {
+        "name": "Software Engineer",
+        "img": "https://canadianbusinesscollege.com/wp-content/uploads/2021/01/image001.jpg",
+        "price": 28500,
+        "text":"A software engineer is a person who applies the principles of software engineering to design, develop, maintain, test, and evaluate computer software. The term programmer is sometimes "
+    },
+    {
+        "name": "Master Business Administration",
+        "img": "https://www.easyuni.my/media/uploads/2019/12/23/mba.jpg",
+        "price": 26500,
+        "text":"A Master of Business Administration (MBA; also Master's in Business Administration) is a graduate degree focusing on business administration, investment management, healthcare administration and psychology."
+    }
+]

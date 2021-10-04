@@ -1,0 +1,60 @@
+/* .manubar-style{
+    background-color:lightsalmon;
+
+} */
+/* .logo img{
+    width:70px;
+    align-items: center;
+   
+} */
+
+.menubar{
+    text-decoration: none;
+    margin-right: 30px;
+    font-size: 20px;
+    list-style: none;
+    padding:9px;
+    cursor: pointer;
+    font-weight: 600;
+
+
+}
+.menubar li{
+    color:white;
+}
+
+.menubar:hover{
+    color:maroon;
+}
+
+.image img{
+    height:290px;
+    width:280px;
+    
+    /* margin-top: 20px; */
+}
+
+.buy-button{
+    color:white;
+    /* background-color:lightcoral; */
+    background-color: #f44336;;
+    padding:5px;
+    width:100px;
+    margin:7px;
+    border-color: lightgray;
+    font-weight: 600;
+    border-radius: 8px;
+}
+
+.view{
+    color:white;
+    padding:5px;
+    width:100px;
+    font-size: 17px;
+    border-radius: 8px;
+}
+
+.carousel-item h5{
+ 
+  font-weight: 600;
+}

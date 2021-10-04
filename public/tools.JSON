@@ -1,0 +1,40 @@
+[
+    {
+        "name": "Computer Engineer",
+        "img": "https://mindlercareerlibrarynew.imgix.net/1G-Computer_ScienceCsIT_Software_Engineering.png",
+        "price": 10000,
+        "text":"Computer engineers build devices, design computer networks and develop new technologies. They are focused on computer hardware and understanding how to optimize hardware for different applications"
+    },
+    {
+        "name": "Electrical Engineer",
+        "img": "https://cdn.mos.cms.futurecdn.net/steVjWGx3vYPjMpJL2jVcV-1200-80.jpg",
+        "price": 17000,
+        "text":"Electrical engineers design, develop, and test electrical devices and equipment, including communications systems, power generators, "
+    },
+    {
+        "name": "Textail Engineering",
+        "img": "https://www.kholasha.com/wp-content/uploads/2018/08/Textile-Engineering.jpg",
+        "price": 20000,
+        "text":"Textile engineering is a branch of engineering where the principles of scientific techniques are utilized for manufacturing and development of several varieties of fabric. "
+    },
+  
+    {
+        "name": "Civil Engineering",
+        "img": "https://leverageedu.com/blog/wp-content/uploads/2020/07/PhD-in-Civil-Engineering.png",
+        "price": 28000,
+        "text":"Civil engineers create, improve and protect the environment in which we live. They plan, design and oversee construction and maintenance of building structures and infrastructure, "
+    },
+    {
+        "name": "Architectural Engineering",
+        "img": "https://studyline.net/wp-content/uploads/2021/07/%D8%AA%D8%AE%D8%B5%D8%B5-%D9%87%D9%86%D8%AF%D8%B3%D8%A9-%D8%A7%D9%84%D8%B9%D9%85%D8%A7%D8%B1%D8%A9.jpg",
+        "price": 30000,
+        "text":"Architectural Engineers use mathematical and scientific principles in building design to test, evaluate, and improve the structural integrity of buildings and building systems"
+    },
+   
+    {
+        "name": "Software Engineer",
+        "img": "https://canadianbusinesscollege.com/wp-content/uploads/2021/01/image001.jpg",
+        "price": 28500,
+        "text":"A software engineer is a person who applies the principles of software engineering to design, develop, maintain, test, and evaluate computer software. The term programmer is sometimes "
+    }
+]
