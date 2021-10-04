@@ -1,10 +1,18 @@
-# Getting Started with Create React App
+# International University
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://kind-gates-e9b165.netlify.app/).
 
-## Available Scripts
+## courses
 
-In the project directory, you can run:
+1. this is the many courses
+2. and this course are helpful
+3. the university are beautiful campus
+
+
+## uses
+1.bootsratp
+2.plain css
+3.js
 
 ### `npm start`
 
