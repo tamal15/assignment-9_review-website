@@ -75,6 +75,20 @@
 	border:1px solid;
   }
   
+  .red-btn{
+	  border:1px solid #f44336;
+	  background:transparent;
+	  background-color:#f44336;
+	  color:white;
+	  padding: 10px;
+	  width:250px;
+	  font-size: 20px;
+  }
+  
+  .red-btn:hover{
+	  color:#fff;
+  }
+  
   
   
   .contact-us h1{

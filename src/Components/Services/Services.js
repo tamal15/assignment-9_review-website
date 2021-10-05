@@ -12,14 +12,14 @@ const Services = () => {
     },[])
     return (
         <div>
-        <div>
+        <div className="mt-5">
         <input type="text" placeholder="input value search" />
           <button className="search">Search</button>
         </div>
         <div className="container">
           <div className="row">
           {
-                services.map(service=><ServiceData service={service}></ServiceData>)
+                services.map(service=><ServiceData key={service.name} service={service}></ServiceData>)
             }
           </div>
         </div>

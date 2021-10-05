@@ -28,3 +28,12 @@
     padding: 50px;
     color: rgb(216, 209, 209);
   }
+
+  .fas{
+    color: rgb(216, 209, 209);
+      font-size: 20px;
+  }
+  .phone{
+      padding: 4px;
+
+  }

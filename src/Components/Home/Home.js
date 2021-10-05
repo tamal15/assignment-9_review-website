@@ -14,32 +14,54 @@ const Home = () => {
         .then(data=>setTeam(data))
     },[])
     console.log(team)
+    const designs= {
+      width: '18rem'
+  }
     return (
         <div>
           <div>
           <section className="facilities">
     <h1>Our Facilities</h1>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae ad at totam tempore consequatur impedit.</p>
+   <h6>this facility is very good </h6>
     
-    <div className="row">
-        <div className="facilities-col">
-          <img src={course1} alt="" />
-            <h3>World Class Library</h3>
+  
+
+    {/* facility  */}
+  <div className="row">
+    <div className="col-lg-4">
+    <div class="card" style={designs}>
+  <img src={course1} class="card-img-top" alt="..."/>
+  <div class="card-body">
+  <h3>World Class Library</h3>
             <p>The DIU library collections are a true collaborative effort. They are the foundation upon which a student's education is built and form the cornerstone of DIU research efforts. .</p>
-        </div>
-
-        <div className="facilities-col">
-           <img src={course2} alt="" />
-            <h3>Largest Play Ground</h3>
-            <p>The DIU play ground is very beautiful and the big place. They are the foundation upon which a student's education is built and form the cornerstone of DIU research efforts. </p>
-        </div>
-
-        <div className="facilities-col">
-          <img src={course3} alt="" />
-            <h3>Testy and Healthy</h3>
-            <p>To make the canteen luxurious, comfortable and specious and to give the students better services and provide good quality food with affordable price.</p>
-        </div>
+  </div>
+</div>
     </div>
+
+
+    <div className="col-lg-4">
+    <div class="card" style={designs}>
+  <img src={course2} class="card-img-top" alt="..."/>
+  <div class="card-body">
+  <h3>Largest Play Ground</h3>
+            <p>The DIU play ground is very beautiful and the big place. They are the foundation upon which a student's education is built and form the cornerstone of DIU research efforts. </p>
+  </div>
+</div>
+    </div>
+
+
+    <div className="col-lg-4">
+    <div class="card" style={designs}>
+  <img src={course3} class="card-img-top" alt="..."/>
+  <div class="card-body">
+  <h3>Testy and Healthy</h3>
+            <p>To make the canteen luxurious, comfortable and specious and to give the students better services and provide good quality food with affordable price.</p>
+  </div>
+</div>
+    </div>
+
+
+  </div>
 
 </section>
 
@@ -49,10 +71,13 @@ const Home = () => {
           <div className="container">
             <div className="row">
             {
-                  team.map(users=><DataShow users={users}></DataShow>)
+                  team.map(users=><DataShow 
+                    key={users.name} users={users}></DataShow>)
               }
             </div>
           </div>
+          
+  
           <Footer></Footer>
         </div>
         

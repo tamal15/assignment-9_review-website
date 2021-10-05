@@ -7,6 +7,13 @@
     align-items: center;
    
 } */
+.nav{
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+    padding:12px;
+    margin:6px;
+}
 
 .menubar{
     text-decoration: none;
@@ -20,17 +27,18 @@
 
 }
 .menubar li{
-    color:white;
+    color:rgb(156, 136, 136);
 }
 
-.menubar:hover{
+.nav:hover{
     color:maroon;
 }
 
 .image img{
     height:290px;
     width:280px;
-    
+    /* background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), */
+    /* opacity:0.5; */
     /* margin-top: 20px; */
 }
 
@@ -55,6 +63,12 @@
 }
 
 .carousel-item h5{
- 
+ /* color: */
   font-weight: 600;
+}
+
+@media(max-width:600px){
+    .carousel-inner{
+        font-size:20px;
+    }
 }

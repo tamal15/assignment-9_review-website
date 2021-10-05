@@ -3,40 +3,50 @@ import './Header.css';
 import {Link} from 'react-router-dom';
 import image1 from '../../images/asuliyacampus.jpg';
 import image2 from '../../images/diu.png';
-// import logo from '../../images/logo.png'
+import logo from '../../images/logo.png'
 
 const Header = () => {
     return (
        <div className="container-data mt-2">
-           <div className="row manubar-style btn-dark">
-               <div className="col-lg-2">
-                   <div className="logo">
-                    {/* <img className="logos" src={logo} alt="" /> */}
-                   </div>
-               </div>
+             <nav class="navbar navbar-expand-lg  navbar-dark bg-primary">
+            <div class="container">
+              <a className="navbar-brand d-flex align-items-center" href="https://www.google.com/">  <img src={logo} alt="" width="50" height="49" class="d-inline-block align-text-top "/>
+                <span class="ms-3 ">Internation University</span></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse "  id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex align-items-center">
+                  <li class="nav-item">
+                    {/* <a class="nav-link active" aria-current="page" href="#home">Home</a> */}
+                    <Link className="nav" to="/home">Home</Link>
+                  </li>
+                  <li class="nav-item">
+                    {/* <a class="nav-link" href="#cow1">Cow</a> */}
+                    <Link className="nav" to="/about">About</Link>
+                  </li>
+                  <li class="nav-item">
+                  <Link className="nav" to="/services">Services</Link>
+                  </li>
+                  <li class="nav-item">
+                  <Link className="nav" to="/courses">Course</Link>
+                  </li>
+                  <li class="nav-item">
+                  <Link className="nav" to="/contact">Contact</Link>
+                  </li>
+                  <li class="nav-item">
+                  <Link className="nav" to="/mentor">Mentors</Link>
+                  </li>
+                 
+                
+                </ul>
+               
+              </div>
+            </div>
+          </nav>
 
-               <div className="menu-container">
-                   <div className="col-lg-10">
-                       <ul className="d-flex align-items-end justify-content-end">
-                           <Link to="/home" className="menubar">
-                               <li>Home</li>
-                           </Link>
-                           <Link to="/about" className="menubar">
-                               <li>About</li>
-                           </Link>
-                           <Link to="/services" className="menubar">
-                               <li>Services</li>
-                           </Link>
-                           <Link to="/courses" className="menubar">
-                               <li>Courses</li>
-                           </Link>
-                           <Link to="/contact" className="menubar">
-                               <li>Contact</li>
-                           </Link>
-                       </ul>
-                   </div>
-               </div>
-           </div>
+
+
 
 
            {/* images style  */}
@@ -50,9 +60,9 @@ const Header = () => {
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src={image1} class="d-block w-100" alt="..."/>
-      <div class="carousel-caption d-none d-md-block">
-        <h5>International University</h5>
+      <img  src={image1} class="d-block w-100" alt="..."/>
+      <div class="carousel-caption d-none d-md-block text-box">
+        <h5 className="text-box">International University</h5>
         <p>Making website is now one of the easiest thing in the world. you just need to learn Computer, Electrical,
 Texttail, Software, BBA, Civil and good to go..</p>
         <button className="view bg-primary"> courses</button>

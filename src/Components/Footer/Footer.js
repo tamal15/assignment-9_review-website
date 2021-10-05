@@ -59,8 +59,13 @@ const Footer = () => {
                <h3>Sign up for the newsletter</h3>
                <input className="input" type="text" placeholder="enter email" />
                <div className="phone-icon">
-               <i class="fas fa-phone-square"></i>
-               <p>0173572929</p>
+
+            <h6>
+            <span><i class="fas fa-phone-square"></i></span><span className="phone">0947436221</span>
+            </h6>
+             <h6> <span> <i className="fas fa-envelope"></i></span><span className="phone">info@marufultamal.com</span></h6>
+
+             <h6> <span>  <i class="fas fa-home"></i></span><span className="phone">Address Dhanmondi Dhaka</span></h6>
                </div>
            </div>
            </div>

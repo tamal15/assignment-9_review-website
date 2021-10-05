@@ -8,6 +8,7 @@ import Services from './Components/Services/Services';
 import Courses from './Components/Courses/Courses';
 import NotFound from './Components/NotFound/NotFound';
 import Contact from './Components/Contact/Contact';
+import Mentors from './Components/Mentors/Mentors.js';
 
 function App() {
   return (
@@ -32,6 +33,9 @@ function App() {
       </Route>
       <Route exact path="/contact">
       <Contact></Contact>
+      </Route>
+      <Route exact path="/mentor">
+      <Mentors></Mentors>
       </Route>
       <Route exact path="*">
         <NotFound></NotFound>
