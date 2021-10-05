@@ -21,7 +21,7 @@ const Home = () => {
         <div>
           <div>
           <section className="facilities">
-    <h1>Our Facilities</h1>
+    <h1 className="text-info">Our Facilities</h1>
    <h6>this facility is very good </h6>
     
   
@@ -32,7 +32,7 @@ const Home = () => {
     <div class="card" style={designs}>
   <img src={course1} class="card-img-top" alt="..."/>
   <div class="card-body">
-  <h3>World Class Library</h3>
+  <h3 className="text-danger">World Class Library</h3>
             <p>The DIU library collections are a true collaborative effort. They are the foundation upon which a student's education is built and form the cornerstone of DIU research efforts. .</p>
   </div>
 </div>
@@ -43,7 +43,7 @@ const Home = () => {
     <div class="card" style={designs}>
   <img src={course2} class="card-img-top" alt="..."/>
   <div class="card-body">
-  <h3>Largest Play Ground</h3>
+  <h3 className="text-danger">Largest Play Ground</h3>
             <p>The DIU play ground is very beautiful and the big place. They are the foundation upon which a student's education is built and form the cornerstone of DIU research efforts. </p>
   </div>
 </div>
@@ -54,7 +54,7 @@ const Home = () => {
     <div class="card" style={designs}>
   <img src={course3} class="card-img-top" alt="..."/>
   <div class="card-body">
-  <h3>Testy and Healthy</h3>
+  <h3 className="text-danger">Testy and Healthy</h3>
             <p>To make the canteen luxurious, comfortable and specious and to give the students better services and provide good quality food with affordable price.</p>
   </div>
 </div>
@@ -69,6 +69,7 @@ const Home = () => {
           </div>
          
           <div className="container">
+            <h1 className="mt-5 text-info">Services</h1>
             <div className="row">
             {
                   team.map(users=><DataShow 
